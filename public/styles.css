@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(5, 1, 59);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.container {
+    width: 50%;
+    display: grid;
+    grid-gap: 10px;
+    margin: auto;
+    border: 10px solid rgb(85, 82, 82);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 15);
+}
+
+.container button {
+    width:100%;
+    padding: 30px 5px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.445);
+    box-shadow: 0px 1px rgb(44, 43, 43);
+}
+
+button:active, button:hover {background-color: #fff;
+    color: rgba(0, 0, 0);}
+.op{
+    background-color: rgba(255, 174, 0, 0.904);
+    color: #000;
+}
+.ac{
+    background-color: rgba(228, 32, 32, 0.904);
+}
+.trig{
+    background-color: #129401;
+}
+.ang{
+    background-color: violet;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+.pow{
+    background-color: aqua;
+    color: black;
+}
+input {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    font-size: 2rem;
+    text-align: right;
+    padding: 20px 22px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.pi{
+    background-color: rgb(159, 247, 27);
+    color: rgb(0, 0, 0);
+}
+.equal {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4;
+}
